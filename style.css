@@ -1,0 +1,35 @@
+h1{
+    color:aquamarine;
+}
+
+.intro{
+     
+    display: flex;
+    justify-content:space-between;
+    height:500px;
+    
+} 
+body{
+    background-image: url("wall.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(93,13,64);
+}  
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}   
+.info{
+    color: whitesmoke;
+    
+}
+p,h1,h2,h4{
+    text-align-last: center;
+    color: cyan;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
